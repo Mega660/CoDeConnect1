@@ -1,0 +1,5 @@
+# Build from the Dockerfile in the client directory
+
+# Build from the Dockerfile in the server directory
+
+# Connect the client and server services to one network

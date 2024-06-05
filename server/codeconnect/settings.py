@@ -81,7 +81,7 @@ DATABASES = {
         "NAME": "codeconnectdb",
         "USER": "superuser",
         "PASSWORD": "password",
-        "HOST": "CodeConnectDB",
+        "HOST": "database",
         "PORT": "5432",
     }
 }

@@ -2,3 +2,4 @@ django
 djangorestframework
 postgres
 channels
+pyjwt

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
@@ -51,7 +52,7 @@
           <hr class="w-64 h-1 bg-gray-200 border-0 rounded" />
         </div> -->
         <!-- form -->
-        <form action="" class="w-[60%]">
+        <form id = "registerForm" class="w-[60%]">
           <input
             type="text"
             class="w-full bg-gray-200 rounded-lg p-2 outline-none mb-2"
@@ -69,11 +70,13 @@
           />
           
           <div class="flex items-center justify-center my-3">
-            <button
-              class="bg-teal-700 text-white text-center mx-auto rounded-2xl p-3 w-1/2"
-            >
+            <a href="login.html">
+              <button
+              class="bg-teal-700 text-white text-center mx-auto rounded-2xl p-3 w-1/2"              
+              >
               Sign up
             </button>
+            </a>
           </div>
         </form>
       </div>

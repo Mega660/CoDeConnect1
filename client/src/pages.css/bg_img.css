@@ -9,6 +9,8 @@
   background-position: center; /* Centers the image */
   height: 100dvh;
   overflow: hidden;
+}
 
+body {
   font-family: "Rubik", sans-serif;
 }

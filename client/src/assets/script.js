@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = {
             email: document.querySelector('input[type = "email"]').value,
             username: document.querySelector('input[type="text"]').value,
-            password: document.querySelector('input[type = "password"').value,
+            password: document.querySelector('input[type = "password"]').value,
         };
 
         fetch (`${BASE_URL}/users/register/`, {

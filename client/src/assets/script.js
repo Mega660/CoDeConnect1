@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const BASE_URL = "http://127.0.0.1:8000";
+    const BASE_URL = "http://server:8000";
     
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             password: document.querySelector('input[type = "password"]').value,
         };
 
-        fetch (`${BASE_URL}/register/`, {
+        fetch (`${BASE_URL}/users/register/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

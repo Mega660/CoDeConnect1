@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const BASE_URL = "http://server:8000";
+    const BASE_URL = "http://localhost:8000";
     
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(error);
         });
     }
-    const signupButton = document.querySelector('button');
+    const signupButton = document.getElementById("signupButton");
     signupButton.addEventListener('click', handleFormSubmit);
 });
 

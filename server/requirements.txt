@@ -3,3 +3,4 @@ djangorestframework
 postgres
 channels
 pyjwt
+django-cors-headers

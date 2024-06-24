@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const BASE_URL = "http://127.0.0.1:8000";
+    const BASE_URL = "http://server:8000";
     
     const handleFormSubmit = (event) => {
         event.preventDefault();
         const formData = {
             email: document.querySelector('input[type = "email"]').value,
             username: document.querySelector('input[type="text"]').value,
-            password: document.querySelector('input[type = "password"').value,
+            password: document.querySelector('input[type = "password"]').value,
         };
 
-        fetch (`${BASE_URL}/register/`, {
+        fetch (`${BASE_URL}/users/register/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -27,3 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const signupButton = document.querySelector('button');
     signupButton.addEventListener('click', handleFormSubmit);
 });
+

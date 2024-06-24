@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const BASE_URL = "http://server:8000/";
+    const BASE_URL = "http://localhost:8000";
     
     const handleFormSubmit = (event) => {
         event.preventDefault(); 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         };
 
-        fetch (`${BASE_URL}login/`, {
+        fetch (`${BASE_URL}/users/login/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error:', error);
         });
     };
-    const loginButton = document.querySelector('button[type="submit"]');
+    const loginButton = document.getElementById('signinButton');
     loginButton.addEventListener('click', handleFormSubmit);
 })

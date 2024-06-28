@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
           console.log(data);
           // redirect to new users' page after a few seconds
           setTimeout(() => {
-              window.location.href = "fresh_start.html";
+              window.location.href = "login.html";
           }, 3000);
       })
       .catch(error => {

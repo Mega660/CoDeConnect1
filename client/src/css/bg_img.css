@@ -3,7 +3,7 @@
 .bg_img {
   position: relative;
 
-  background-image: url("../assets/bg_img.png");
+  background-image: url("../img/bg_img.png");
   background-size: cover; /* Adjusts the size of the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */

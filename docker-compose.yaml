@@ -14,20 +14,37 @@ services:
       timeout: 2s
       retries: 5
     restart: always
+    networks:
+      - codeconnect
 
 # Build from the Dockerfile in the server directory
   server:
     build: ./server
     ports:
-      - "8000:8000"
+      - target: 8000
+        published: 8000
+        protocol: tcp
+        mode: host
     depends_on:
       database:
         condition: service_healthy
+    networks:
+      - codeconnect
 
 # Build from the Dockerfile in the client directory
   client:
     build: ./client
     ports:
-      - "8080:80"
+      - target: 80
+        published: 8080
+        protocol: tcp
+        mode: host
     depends_on:
       - server
+    networks:
+      - codeconnect
+
+# Create a network for the services to communicate
+networks:
+  codeconnect:
+    driver: bridge

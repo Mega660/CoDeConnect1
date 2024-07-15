@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../pages.css/bg_img.css" />
+    <link rel="stylesheet" href="../pages.css/chat.css" />
+</head>
+<body class="bg_img relative bg-gradient-to-tr from-green-500 to-slate-400 w-full h-screen pb-[60px]">
+    <!-- Chat Area -->
+     <div class="w-full h-full px-10 py-4 max-h-full overflow-y-auto">
+        <!-- sender(Your)  Mesesage -->
+         <div class="w-full flex justify-end my-2">
+            <div class="flex items-end gap-2 w-1/2 justify-end">
+                <h1 class="bg-white p-2 rounded-t-lg rounded-bl-lg">Word remembers where you left off - even on another device.</h1>
+                <div class="size-8 p-2 rounded-full bg-gray-700">
+                    <img src="../assets/icons8_user.svg" alt="" class="w-full h-full">
+                </div>
+            </div>
+         </div>
+         <div class="w-full flex justify-end my-2">
+            <div class="flex items-end gap-2  w-1/2 justify-end">
+                <h1 class="bg-white p-2 rounded-t-lg rounded-bl-lg">Message content</h1>
+                <div class="size-8 p-2 rounded-full bg-gray-700">
+                    <img src="../assets/icons8_user.svg" alt="" class="w-full h-full">
+                </div>
+            </div>
+         </div>
+
+         <!-- Reciever Message -->
+         <div class="w-full flex justify-start my-2">
+            <div class="flex items-end gap-2 w-[50%]">
+                <h1 class="bg-red-500 text-white rounded-full size-7 grid items-center justify-center min-w-[28px]">A</h1>
+                <h1 class="bg-white p-2 rounded-t-lg rounded-br-lg w-full">
+                    Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+                </h1>
+            </div>
+        </div>
+        <div class="flex items-end gap-2 w-[50%]">
+            <h1 class="bg-red-500 text-white rounded-full size-7 grid items-center justify-center min-w-[28px]">K</h1>
+            <h1 class="bg-white p-2 rounded-t-lg rounded-br-lg w-full">
+                Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+            </h1>
+        </div>
+
+     </div>
+
+    <!-- Chat tools -->
+     <div class="w-full absolute bottom-0 bg-white p-3 flex items-center gap-2">
+        <button><img src="../assets/attach.svg" class="size-8" alt=""></button>
+        <input type="text" class="w-full p-2 outline-none" placeholder="Type your message here*"/>
+        <button class="text-lg"><img src="../assets/icons8_nerd_face.svg" alt="" class="size-9"></button>
+        <button><img src="../assets/icons8_microphone.svg" alt="" class="size-7"></button>
+
+     </div>
+</body>
+</html>

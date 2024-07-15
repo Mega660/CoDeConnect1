@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="256" height="256">
+  <radialGradient id="Ey7gxImODf2~Kzciexc39a" cx="24" cy="24" r="18" fx="23.905" fy="16.289" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ffe16e" />
+    <stop offset=".629" stop-color="#ffd226" />
+    <stop offset=".75" stop-color="#fdcd23" />
+    <stop offset=".899" stop-color="#f6bd1b" />
+    <stop offset=".999" stop-color="#f0af13" />
+  </radialGradient>
+  <circle cx="24" cy="24" r="18" fill="url(#Ey7gxImODf2~Kzciexc39a)" />
+  <circle cx="17" cy="23" r="4" fill="#fff" opacity=".79" />
+  <circle cx="17" cy="23" r="2" fill="#212121" />
+  <circle cx="31" cy="23" r="4" fill="#fff" opacity=".79" />
+  <circle cx="31" cy="23" r="2" fill="#212121" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39b" cx="261.459" cy="32.669" r="4.638" fx="261.455" fy="32.843" gradientTransform="matrix(1.7746 0 0 1 -439.99 0)" gradientUnits="userSpaceOnUse">
+    <stop offset=".947" stop-color="#ffe16e" />
+    <stop offset="1" stop-color="#ffe16e" stop-opacity="0" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39b)" d="M31.581,32.438c0,0-1.751,3.562-7.581,3.562c-5.4,0-7.576-3.562-7.576-3.562s1.427,1.103,7.649,1.103S31.581,32.438,31.581,32.438z" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39c" cx="24.09" cy="27.227" r="9.112" gradientTransform="matrix(1 0 0 1.1502 0 -4.089)" gradientUnits="userSpaceOnUse">
+    <stop offset=".819" stop-color="#cc9000" />
+    <stop offset="1" stop-color="#cc9000" stop-opacity="0" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39c)" d="M24,36c-5.488,0-7.974-3.609-7.974-3.609S18.45,38,24,38s7.974-5.609,7.974-5.609S29.488,36,24,36z" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39d" cx="24" cy="32.398" r="7.732" gradientTransform="matrix(1 0 0 .3754 0 20.237)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1c1911" />
+    <stop offset=".999" stop-color="#171714" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39d)" d="M30.974,31.703c0.543-0.221,0.949,0.52,0.478,0.87C29.801,33.798,27.333,35,24,35s-5.801-1.202-7.452-2.427c-0.471-0.349-0.065-1.09,0.478-0.87C18.691,32.38,21.028,33,24,33S29.309,32.38,30.974,31.703z" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39e" cx="31.081" cy="18.955" r="8.037" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff" stop-opacity=".7" />
+    <stop offset=".999" stop-color="#fff" stop-opacity=".2" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39e)" d="M37,21.274C37,25.073,35.037,27,31.165,27C27.931,27,26,25.151,26,22.054v-0.68c0-0.96,0.679-1.785,1.622-1.964C28.666,19.211,30.008,19,31,19h4c1.105,0,2,0.895,2,2V21.274z" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39f" cx="16.941" cy="19.09" r="7.997" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff" stop-opacity=".7" />
+    <stop offset=".999" stop-color="#fff" stop-opacity=".2" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39f)" d="M11,21.274C11,25.073,12.963,27,16.835,27C20.069,27,22,25.151,22,22.054v-0.68c0-0.96-0.679-1.785-1.622-1.964C19.334,19.211,17.992,19,17,19h-4c-1.105,0-2,0.895-2,2V21.274z" />
+  <radialGradient id="Ey7gxImODf2~Kzciexc39g" cx="24" cy="23" r="11.18" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1c1911" />
+    <stop offset=".999" stop-color="#171714" />
+  </radialGradient>
+  <path fill="url(#Ey7gxImODf2~Kzciexc39g)" d="M38.469,18H31c-3.505,0-5,1-7,1s-3.495-1-7-1H9.531C9.238,18,9,18.238,9,18.531v1.094c0,0.207,0.12,0.389,0.307,0.479C9.601,20.246,10,20.568,10,21.274C10,25.026,11.885,28,16.835,28C20.676,28,23,25.691,23,22.054C23,21.325,23.494,21,24,21s1,0.325,1,1.054C25,25.691,27.324,28,31.165,28C36.115,28,38,25.026,38,21.274c0-0.706,0.399-1.028,0.693-1.17C38.88,20.014,39,19.832,39,19.625v-1.094C39,18.238,38.762,18,38.469,18z M22,22.054C22,25.151,20.069,27,16.835,27C12.963,27,11,25.073,11,21.274V21c0-1.105,0.895-2,2-2h4c0.992,0,2.334,0.211,3.378,0.41C21.321,19.589,22,20.414,22,21.374V22.054z M37,21.274C37,25.073,35.037,27,31.165,27C27.931,27,26,25.151,26,22.054v-0.68c0-0.96,0.679-1.785,1.622-1.965C28.666,19.211,30.008,19,31,19h4c1.105,0,2,0.895,2,2V21.274z" />
+</svg>
